@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-		git 'https://github.com/Sumantbag1992/Demo.git'
+		git 'https://github.com/Sumantbag1992/petadoption.git'
             	sh "./mvnw compile"
                 echo 'Building...'
             }
